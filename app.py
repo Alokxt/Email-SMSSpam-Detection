@@ -10,16 +10,9 @@ from nltk.stem.porter import  PorterStemmer
 
 import re
 import nltk
-import os
 import string
-nltk_data_dir = '/tmp/nltk_data'
-os.makedirs(nltk_data_dir, exist_ok=True)
-
-# Download stopwords there
-nltk.download('stopwords', download_dir=nltk_data_dir)
-
-# Tell nltk to also look there
-nltk.data.path.append(nltk_data_dir)
+nltk.download('stopwords')
+nltk.download('punkt_tab')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
