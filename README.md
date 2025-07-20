@@ -1,5 +1,7 @@
 # 📧 Email / SMS Spam Detection using Machine Learning
 
+# **Live app on streamlit** - https://emailsmsspam.streamlit.app/
+
 This project implements a **spam detection model** for classifying emails or SMS messages as **spam** or **ham (not spam)**.  
 It was built as a hands-on machine learning project using **Python**, `pandas`, `scikit-learn` and `NLTK`.
 
